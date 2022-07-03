@@ -55,9 +55,9 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
-import java.util.Objects;
 
-public class LimeTorrentsFragment extends Fragment implements TorrentAdapter.RecyclerviewListener, MagnetLinkDialogFragment.MagnetLinkListener {
+public class LimeTorrentsFragment extends Fragment implements TorrentAdapter.RecyclerviewListener,
+        MagnetLinkDialogFragment.MagnetLinkListener {
 
     private TorrentAdapter torrentAdapter;
     private final ArrayList<SearchResult> searchResults = new ArrayList<>();

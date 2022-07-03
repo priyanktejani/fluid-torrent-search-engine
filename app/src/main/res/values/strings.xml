@@ -26,7 +26,6 @@
     <string name="fluid_torrentz">Fluid Torrentz</string>
     <string name="search_torrents">Search Torrents</string>
 
-
     <string name="sort_list_by">Sort List By</string>
     <string name="seeds_desc">Seeds DESC</string>
     <string name="seeds_asc">Seeds ASC</string>
@@ -37,13 +36,11 @@
     <string name="time_desc">Time DESC</string>
     <string name="time_asc">Time ASC</string>
 
-
     <string name="open_magnet_link">Open Magnet Link</string>
     <string name="copy_magnet_link">Copy Magnet Link</string>
     <string name="share_magnet_link">Share magnet Link</string>
     <string name="open_link_in_browser">Open Link in Browser</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="search_for_anything">Search for anything</string>
     <string name="search_for_torrents">Search for torrents by entering query in the above SearchBar</string>
     <string name="either_connection_error_or_no_results">Either connection error or there are no results for given query!</string>
