@@ -1,0 +1,54 @@
+<!--
+  ~ Copyright (c) 2020 Priyank Tejani
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">Fluid Torrentz</string>
+
+    <string name="fluid_torrentz">Fluid Torrentz</string>
+    <string name="search_torrents">Search Torrents</string>
+
+
+    <string name="sort_list_by">Sort List By</string>
+    <string name="seeds_desc">Seeds DESC</string>
+    <string name="seeds_asc">Seeds ASC</string>
+    <string name="leeches_desc">Leeches DESC</string>
+    <string name="leeches_asc">Leeches ASC</string>
+    <string name="size_desc">Size DESC</string>
+    <string name="size_asc">Size ASC</string>
+    <string name="time_desc">Time DESC</string>
+    <string name="time_asc">Time ASC</string>
+
+
+    <string name="open_magnet_link">Open Magnet Link</string>
+    <string name="copy_magnet_link">Copy Magnet Link</string>
+    <string name="share_magnet_link">Share magnet Link</string>
+    <string name="open_link_in_browser">Open Link in Browser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_for_anything">Search for anything</string>
+    <string name="search_for_torrents">Search for torrents by entering query in the above SearchBar</string>
+    <string name="either_connection_error_or_no_results">Either connection error or there are no results for given query!</string>
+    <string name="install">Install</string>
+    <string name="cancel">Cancel</string>
+    <string name="install_torrent_downloader">Your phone does not have Torrent Client to Download this file. You need to install Torrent Downloader</string>
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Priyank Tejani
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/sheet_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorBackground"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:includeFontPadding="false"
+            android:text="@string/sort_list_by"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/sheet_header_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RadioButton
+            android:id="@+id/button_seeds_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seeds_desc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_seeds_asc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seeds_asc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:paddingStart="@dimen/_8sdp"
+            android:textAllCaps="true"
+            android:paddingEnd="@dimen/_8sdp"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_leeches_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leeches_desc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_leeches_asc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leeches_asc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_size_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/size_desc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_size_asc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/size_asc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_time_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_desc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+
+        <RadioButton
+            android:id="@+id/button_time_asc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_asc"
+            android:textColor="@color/colorTransWhite"
+            android:fontFamily="@font/ubuntu_medium"
+            android:includeFontPadding="false"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_10sdp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
