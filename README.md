@@ -37,7 +37,7 @@ https://github.com/priyanktejani/fluid-torrent-search-engine.git
 </p>
 
 ## Project Libraries
-- [jsoup](https://jsoup.org) jsoup is a Java library for working with real-world HTML. 
+- [jsoup](https://jsoup.org) provides a very convenient API for fetching URLs and extracting and manipulating data, using the best of HTML5 DOM methods and CSS selectors. 
 - [Shimmer](http://facebook.github.io/shimmer-android/) provides an easy way to add a shimmer effect to any view in your Android app. 
 - [SDP](https://github.com/intuit/sdp) provides size unit scales with the screen size. 
 - [SSP](https://github.com/intuit/ssp) provides size unit scales with the screen size based on the sp size unit (for texts). 
