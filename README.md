@@ -22,7 +22,7 @@ https://github.com/priyanktejani/fluid-torrent-search-engine.git
 ## Features
 - Clean & beautiful UI.
 - Easy to search and find torrents
-- Sort results by to speed, size and date
+- Sort results by speed, size and date
 - Directly open magnet link with a torrent client
 - Share the link, Visit torrent sites
 
